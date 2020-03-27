@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.css';
 
-export default Home(){
+export default function Home(){
     return(
-        <h1>teste</h1>
+        <h1></h1>
     );
 }

@@ -11,19 +11,25 @@ export default function Home(){
                     <h1>To-Do Lists</h1>
                 </div>
                 <div className="actions-box">
-                    <button className="button" type="button">
-                        <FiPlus size={16} color="#ccc" />
+                    <button className="button" id="register-button" type="button">
+                        <FiPlus size={24} color="#fff" />
                     </button>
                 </div>
                 <div className="lists-panel">
                     <ul>
-                        <li>
-                            <strong>Lista de Segunda</strong>
-                            <div className="list-creater-box">
-                                <span>R</span>
-                                <p>Rodrigo</p>
-                            </div>
-                        </li>
+                        <a href="/">
+                            <li>
+                                <div className="list-content">
+                                    <div className="list-name">
+                                        <strong>Lista de Segunda</strong>
+                                    </div>
+                                    <div className="list-creator-box">
+                                        <span>R</span>
+                                        <p>Rodrigo</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </a>
                     </ul>
                 </div>
             </section>

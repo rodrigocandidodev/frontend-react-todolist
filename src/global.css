@@ -24,7 +24,6 @@ button {
 }
 button:hover{
     background:  rgb(98, 29, 162);
-    margin-top: -5px;
 }
 a {
     text-decoration: none;

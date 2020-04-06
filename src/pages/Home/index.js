@@ -5,7 +5,8 @@ import './styles.css';
 import Modal from '../../components/Modal';
 
 export default function Home(){
-    const [isShowing, setIsShowing] = useState();
+    const [isShowing, setIsShowing]     = useState();
+
     return(
         <div className="all-lists-container">
             <section className="list">

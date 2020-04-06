@@ -29,3 +29,30 @@ button:hover{
 a {
     text-decoration: none;
 }
+.all-lists-container, .list-container{
+    width: 100%;
+    margin: 32px 0;
+}
+.all-lists-container section.list, .list-container section.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all-lists-container section.list .title-box, .list-container section.list .title-box {
+    width: 100%;
+}
+
+.all-lists-container section.list .title-box h1, .list-container section.list .title-box h1 {
+    color: #717171;
+    text-align: center;
+    font-size: 30px;
+}
+.all-lists-container section.list .actions-box, .list-container section.list .actions-box {
+    width: 50%;
+    display: flex;
+}
+.all-lists-container section.list .actions-box{
+    margin-right: 50px;
+    flex-flow: row-reverse;
+    height: 50px;
+}

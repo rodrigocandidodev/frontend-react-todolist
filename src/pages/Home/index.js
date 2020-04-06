@@ -28,7 +28,7 @@ export default function Home(){
                 
                 <div className="lists-panel">
                     <ul>
-                        <a href="/">
+                        <a href="/list">
                             <li>
                                 <div className="list-content">
                                     <div className="list-name">

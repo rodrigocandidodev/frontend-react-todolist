@@ -26,12 +26,7 @@ export default function ModalUpdateTask(props){
                             <div className="form-row">
                                 <input 
                                 type="text" 
-                                placeholder="Nome da lista"/>
-                            </div>
-                            <div className="form-row">
-                                <input 
-                                type="text" 
-                                placeholder="Nome do criador"/>
+                                placeholder="Item da lista"/>
                             </div>
                         </div>
                     </form>

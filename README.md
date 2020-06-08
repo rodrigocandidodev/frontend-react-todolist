@@ -1,3 +1,3 @@
 # Front-end of To Do List Application
 
-Front-end developed in ReactJS of a to-do list application
+Front-end of To Do List App developed with ReactJS. The Back-end of this app is made with NodeJS.
